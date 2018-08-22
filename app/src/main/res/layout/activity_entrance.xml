@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raghav.bustrackingapp2.Entrance">
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="520dp"
+        android:background="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="382dp"
+            android:layout_height="203dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="145dp"
+            android:background="#FF2033AD"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="163dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tableLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Bus Number"
+            android:textColor="@android:color/black"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:text="Submit"
+            android:onClick="onEntranceClick"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

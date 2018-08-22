@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raghav.bustrackingapp2.AdminPage">
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="521dp"
+        android:background="#60000000"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-7dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="ADMIN PANEL"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:textSize="20sp"
+            android:text="Add Bus Detail"
+            android:onClick="Add"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="49dp"
+            android:text="VIEW BUS DETAIL"
+            android:onClick="Viewlist"
+            android:textSize="20sp"
+            android:layout_below="@+id/btnAdd"
+            android:layout_alignStart="@+id/btnAdd" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

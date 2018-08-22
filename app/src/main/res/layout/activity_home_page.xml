@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raghav.bustrackingapp2.HomePage">
+
+    <RelativeLayout
+        android:layout_width="378dp"
+        android:layout_height="506dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="cursive"
+            android:text="Login Here"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="50sp"
+            android:layout_marginRight="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btnRegister"
+            android:layout_alignEnd="@+id/btnRegister" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="17dp"
+            android:onClick="nextClick"
+            android:text="New User?"
+            android:textColor="#FF02178B" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnRegister"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="26dp"
+            android:text="Username:"
+            android:textSize="35sp"/>
+
+        <EditText
+            android:id="@+id/tfUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tfUsername"
+            android:layout_alignStart="@+id/tfUsername"
+            android:layout_below="@+id/tfUsername"
+            android:layout_marginTop="37dp"
+            android:text="Password:"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btnEntrance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Submit"
+            android:onClick="onButtonClick"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/tfPassword"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/tfPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

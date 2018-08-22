@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/darker_gray">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_bus_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="Here Bus No"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_drive_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="Here Driver Name"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_route_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="Here Route No"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_dl_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="Here DL No"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+</LinearLayout>
